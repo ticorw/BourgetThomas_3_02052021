@@ -1,0 +1,47 @@
+/* Définition des polices personnalisées */
+
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+
+/* elements de la page */
+
+#bloc_page{
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* Navigation */
+
+nav ul{
+    list-style-type: none;
+    display: flex; 
+    flex-direction: row;
+}
+
+nav li{
+    color: #0065FC;
+    margin-right: 50px;
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+/* corps*/
+
+/* Footer */
