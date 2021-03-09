@@ -8,9 +8,26 @@ body{
 /* elements de la page */
 
 #bloc_page{
-    width: 90%;
+    width: 60%;
     margin: auto;
 }
+
+h1{
+    font-size: 1.4em;
+    color: black;
+}
+
+h2{
+    font-size: 1.2em;
+    color: black;    
+}
+
+p{
+    font-size: 1.2em;
+    color: gray;
+}
+
+
 
 /* HEADER */
 
@@ -43,5 +60,32 @@ a:hover{
     color: black;
 }
 /* corps*/
+
+.nav_filtres{
+        color: black;
+}
+
+.filtres{
+    display:  flex;
+    flex-direction: row;
+}
+
+.liste_filtres{
+color: black;
+border: solid 2px;
+border-color: 	#DCDCDC;
+border-radius: 20px;
+text-align: center;
+display: flex;
+margin-left: 50px;
+padding: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 /* Footer */

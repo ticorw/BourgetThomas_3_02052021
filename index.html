@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">    
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e4953e9b02.js" crossorigin="anonymous"></script>
     <title>Réservia</title>
 </head>
 
 <body>
     <div id="bloc_page">
+
         <header><!--... Tete de page logo et barre menu...-->
             <div class="logo"><a href="images/logo/Reservia@3x.png"><img src="images/logo/Reservia.svg" alt="logo_reservia"></a></div>
             <nav>
@@ -17,19 +19,43 @@
                     <li><a href="#">S'inscrire</a></li>
                 </ul>
             </nav>
-        </header>
+        </header> 
 
         <section><!--... second menue "trouver votre ébergement "...-->
-
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <div class="recherche">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" value="Marseille,France" >
+                <input type="button" value="Rechercher">
+            </div>
         </section>
 
-        <section><!--...premier contenue hébergement à Marseille...-->
+        <section class="section_fiiltres">
+            <div class="filtres">
+                <div class="nav_filtres">Filtres</div>
+                <div class="liste_filtres"><i class="fas fa-money-bill-wave"></i>Économique</div>
+                <div class="liste_filtres"><i class="fas fa-child"></i>Familial</div>
+                <div class="liste_filtres"><i class="fas fa-heart"></i>Romantique</div>
+                <div class="liste_filtres"><i class="fas fa-dog"></i>Animaux autorisés</div>
+            </div>
+        </section>
+        <section class="info">
+            <div>
+                <i class="fas fa-info"></i>
+            </div>
+            <div><p>Plus de 500 logements sont disponibles dans cette ville</p></div>
 
         </section>
+        <main>  
+            <section><!--...premier contenue hébergement à Marseille...-->
 
-        <section><!--...second contenue activité à Marseille...-->
+            </section>
 
-        </section>
+            <section><!--...second contenue activité à Marseille...-->
+
+            </section>       
+        </main>
 
         <footer><!--...Pied de page "A propos/ Hébergements /Assistaance"...-->
 
