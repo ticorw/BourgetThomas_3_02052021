@@ -13,7 +13,7 @@ body{
 }
 
 h1{
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: black;
 }
 
@@ -23,8 +23,8 @@ h2{
 }
 
 p{
-    font-size: 1.2em;
-    color: gray;
+    font-size: 0.9em;
+    color: black;
 }
 
 
@@ -35,6 +35,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 25px;
 }
 
 
@@ -51,18 +52,30 @@ nav li{
     margin-right: 50px;
 }
 
+nav li:hover{
+    border-top:2px solid #0065FC ;
+}
+
 a{
-    
     text-decoration: none;
 }
 
 a:hover{
     color: black;
+
 }
 /* corps*/
 
+.section_filtres{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
 .nav_filtres{
-        color: black;
+    color: black;
+    text-align: auto;
+    display: flex;
+    padding: 10px;
 }
 
 .filtres{
@@ -71,14 +84,29 @@ a:hover{
 }
 
 .liste_filtres{
-color: black;
-border: solid 2px;
-border-color: 	#DCDCDC;
-border-radius: 20px;
-text-align: center;
-display: flex;
-margin-left: 50px;
-padding: 10px;
+    color: black;
+    border: solid 2px;
+    border-color: 	#DCDCDC;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.bull_filtres{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 20px;
+    padding: 10px;
+    float: left;
+
+}
+
+.filtre_texte{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .info{
