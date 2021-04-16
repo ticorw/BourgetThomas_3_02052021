@@ -231,7 +231,7 @@ a:hover {
 /* bloc central left */
 
 .bloc_left {
-	background-color: #DCDCDC;
+	background-color: #F2F2F2;
 	border-radius: 15px;
 	width: 700px;
 	height: 465px;
@@ -276,7 +276,7 @@ a:hover {
 /* bloc central right */
 
 .bloc_right {
-	background-color: #DCDCDC;
+	background-color: #F2F2F2;
 	border-radius: 15px;
 	width: 375px;
 	height: 465px;
@@ -564,7 +564,7 @@ a:hover {
 /* Footer */
 
 footer {
-	background-color: #dcdcdcaf;
+	background-color: #F2F2F2;
 	width: auto;
 	height: 100px;
 	margin-top: 20px;
