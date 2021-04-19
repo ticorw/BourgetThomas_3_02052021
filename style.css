@@ -181,6 +181,8 @@ a:hover {
 	margin-top: 15px;
 }
 
+
+
 .bull_filtres {
 	background-color: #DEEBFF;
 	color: #0065FC;
@@ -192,6 +194,10 @@ a:hover {
 .filtre_texte {
 	margin-left: 15px;
 	margin-right: 15px;
+}
+
+.filtre_texte:hover{
+	color: blue;
 }
 
 .info {
@@ -266,6 +272,7 @@ a:hover {
 	flex-direction: column;
 	box-shadow: 2px 2px 1px 1px rgb(192, 192, 192);
 	padding: 3px;
+	color: black;
 }
 
 .img_hebergement p {
