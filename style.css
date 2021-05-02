@@ -27,12 +27,17 @@ h1 {
 }
 
 h2 {
-	font-size: 0.9rem;
+	font-size: 1.2rem;
+	color: black;	
+}
+
+h4{
+	font-size: 0.8rem;
 	color: black;
 }
 
 p {
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	color: black;
 }
 
@@ -233,6 +238,9 @@ a:hover {
 	margin-top: 20px;
 }
 
+.titre_bloc{
+	font-size: 0;
+}
 
 /* bloc central left */
 
@@ -312,7 +320,7 @@ a:hover {
 	background-color: white;
 	border-radius: 15px;
 	width: 290px;
-	height: 105px;
+	height: 110px;
 	display: flex;
 	margin: 10px;
 	box-shadow: 2px 2px 1px 1px rgb(192, 192, 192);
