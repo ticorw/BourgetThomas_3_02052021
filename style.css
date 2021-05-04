@@ -31,13 +31,13 @@ h2 {
 	color: black;	
 }
 
-h4{
-	font-size: 0.8rem;
+h3 {
+	font-size: 1rem;
 	color: black;
 }
 
 p {
-	font-size: 0.7rem;
+	font-size: 1rem;
 	color: black;
 }
 
@@ -96,7 +96,6 @@ nav li:hover {
 
 a {
 	text-decoration: none;
-	color: #0065FC;
 }
 
 a:hover {
@@ -109,6 +108,10 @@ a:hover {
 	justify-content: flex-end;
 	padding-top: 65px;
 	margin-right: 35px;
+}
+
+.inscription a {
+	color: #0065FC;
 }
 
 
@@ -238,6 +241,10 @@ a:hover {
 	margin-top: 20px;
 }
 
+.bloc_central h2{
+	padding-left: 25px;
+}
+
 .titre_bloc{
 	font-size: 0;
 }
@@ -247,8 +254,8 @@ a:hover {
 .bloc_left {
 	background-color: #F2F2F2;
 	border-radius: 15px;
-	width: 700px;
-	height: 465px;
+	width: 715px;
+	height: 550px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -258,11 +265,10 @@ a:hover {
 
 .central_left {
 	border: solid 0px black;
-	width: 675px;
-	height: 455px;
+	width: 715px;
+	height: 550px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 }
 
 .bloc_img {
@@ -274,8 +280,8 @@ a:hover {
 .img_hebergement {
 	background-color: white;
 	border-radius: 15px;
-	width: 200px;
-	height: 160px;
+	width: 215px;
+	height: 175px;
 	display: flex;
 	flex-direction: column;
 	box-shadow: 2px 2px 1px 1px rgb(192, 192, 192);
@@ -287,6 +293,9 @@ a:hover {
 	padding-left: 10px;
 }
 
+.txt_hebergement{
+	padding-left: 25px;
+}
 
 /* bloc central right */
 
@@ -294,7 +303,7 @@ a:hover {
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	width: 375px;
-	height: 465px;
+	height: 550px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -320,7 +329,7 @@ a:hover {
 	background-color: white;
 	border-radius: 15px;
 	width: 290px;
-	height: 110px;
+	height: 130px;
 	display: flex;
 	margin: 10px;
 	box-shadow: 2px 2px 1px 1px rgb(192, 192, 192);
