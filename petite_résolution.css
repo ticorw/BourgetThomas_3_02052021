@@ -1,4 +1,4 @@
-@media only screen and (max-width: 667px){
+@media only screen and (max-width: 800px){
 /* Définition des polices personnalisées */
 	body {
 		width: 100%;
@@ -24,7 +24,7 @@
 		color: black;
 	}
 	p {
-		font-size: 1.2em;
+		font-size: 1rem;
 		color: black;
 	}
 	.logo {
@@ -33,12 +33,12 @@
 		padding-left: 5px;
 	}
 	nav {
-		width: 100%;
 		grid-area: nav;
 		display: flex;
-		justify-content: space-around;
 		align-items: center;
+		margin: 0;
 	}
+	.nav_blo
 	.inscription {
 		grid-area: inscription;
 		padding: 15px 5px 0 0;
@@ -55,8 +55,7 @@
 		margin-top: 0;
 	}
 	.bloc_nav {
-		display: flex;
-		flex-direction: row;
+		display: block;
 	}
 	/* Navigation */
 	nav ul {
@@ -68,14 +67,14 @@
 		padding-left: 0;
 	}
 	nav li {
-		width: 195px;
+		width: 100%;
 		text-align: center;
 		color: #DEEBFF;
-		font-size: 1.5em;
-		padding: 48px 0px 10px 0px;
+		font-size: 1.3rem;
 		border-top: none;
 		border-bottom: 3px solid #c2c2c2;
 		margin: 0;
+		padding-bottom: 15px;
 	}
 	nav li:hover {
 		color: #0065FC;
@@ -87,10 +86,10 @@
 		text-decoration: none;
 	}
 	a:hover {
-		color: black;
+		color: #0065FC;
 	}
 	.inscription {
-		padding-top: 15px;
+		padding: 15px ;
 	}
 	.pleine_nature {
 		margin-left: 30px;
@@ -207,6 +206,7 @@
 
 	.bloc_central h2 {
 		padding-left: 25px;
+		text-align: none;
 	}
 	.central_right {
 		width: 100%;
@@ -271,7 +271,7 @@
 		flex-direction: column;
 		align-items: center;
 	}
-	.bloc_central2 h1 {
+	.bloc_central2 h2 {
 		text-align: center;
 	}
 	.bloc_1 {
@@ -313,5 +313,8 @@
 	}
 	.footer_p {
 		margin: 15px 0;
+	}
+	#titre_section2{
+		margin-left: 25px;
 	}
 }

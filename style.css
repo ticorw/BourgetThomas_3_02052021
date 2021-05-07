@@ -87,6 +87,8 @@ nav li {
 	padding-top: 48px;
 	border-top: 2px solid white;
 	margin-left: 15px;
+	padding-right: 37px;
+    padding-left: 37px;
 }
 
 nav li:hover {
@@ -96,6 +98,7 @@ nav li:hover {
 
 a {
 	text-decoration: none;
+	color: black;
 }
 
 a:hover {
@@ -107,8 +110,8 @@ a:hover {
 	display: flex;
 	justify-content: flex-end;
 	padding-top: 65px;
-	margin-right: 35px;
-}
+    padding-right: 37px;
+    padding-left: 37px;}
 
 .inscription a {
 	color: #0065FC;
@@ -590,7 +593,7 @@ a:hover {
 footer {
 	background-color: #F2F2F2;
 	width: auto;
-	height: 100px;
+	height: auto;
 	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
